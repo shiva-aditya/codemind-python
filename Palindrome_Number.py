@@ -7,6 +7,6 @@ def po(n):
     g=c[::-1] 
     return g==c 
 for _ in range(int(input())):   
-    i=int(input())
-    print(po(i))
+    o=int(input())
+    print(po(o))
         

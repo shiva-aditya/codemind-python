@@ -38,3 +38,7 @@ d=int(input())
 p=po(d)
 for v in p:
     print(v,end="")
+
+
+
+

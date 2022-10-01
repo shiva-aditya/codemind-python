@@ -10,8 +10,8 @@ def po(a,l):
             a.remove(max(a))
             a.remove(min(a))
     return g
-
-for _ in range(int(input())):
-    v=int(input())
-    l=list(map(int,input().split()))
-    print(*po(l,v))
+    
+for _ in  range(int(input())):
+    f=int(input())
+    g=list(map(int,input().split()))
+    print(*po(g,f))

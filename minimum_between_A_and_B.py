@@ -10,8 +10,7 @@ def po(a,n,m):
         return -1
     else:
         return min(ans)
-
-
+        
 s=int(input())
 q=list(map(int,input().split()))
 n,m=map(int,input().split())

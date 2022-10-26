@@ -6,6 +6,7 @@ def po(a):
 
 
 
-u=input()
-u=u.split()
-print(po(u))
+
+s=input()
+s=s.split()
+print(po(s))

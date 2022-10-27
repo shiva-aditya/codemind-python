@@ -1,0 +1,9 @@
+w=input()
+w=w.split()
+w="".join(w)
+c=[]
+c.append(min(w))
+c.append(w.count(min(w)))
+c.append(max(w))
+c.append(w.count(max(w)))
+print(*c)

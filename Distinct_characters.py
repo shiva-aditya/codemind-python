@@ -7,10 +7,10 @@ def po(a):
             dic[i]+=1
     c=[]
     for k in dic.keys():
-        if dic[k]==1:
-            c.append(k)
+        c.append(k)
     c.sort()
     return c
+    
 w=input()
 w=w.lower()
 w=w.split()
